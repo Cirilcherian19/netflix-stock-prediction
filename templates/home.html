@@ -1,0 +1,34 @@
+<html>
+<body>
+    <div class="login">
+        <h1>Close value prediction</h1>
+
+        <form action="{{ url_for('predict_datapoint')}}" method="post">
+            <h1>
+                <legend>Netflix Stock predictor</legend>
+            </h1>
+            <div>
+                <label class="form-label">open value</label>
+                <input class="form-control" type="number" name="Open" placeholder="Enter open value" required />
+            </div>
+            <div>
+                <label class="form-label">High value</label>
+                <input class="form-control" type="number" name="High" placeholder="Enter High value" required />
+            </div>
+            <div>
+                <label class="form-label">Low Value</label>
+                <input class="form-control" type="number" name="Low" placeholder="Enter Low value" required />
+            </div>
+            <div>
+                <label class="form-label">Volume value</label>
+                <input class="form-control" type="number" name="Volume" placeholder="Enter Volume value" required />
+            </div>
+            <div>
+                <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
+            </div>
+        </form>
+        <h2>
+            The close value prediction is {{results}}
+        </h2>
+    <body>
+</html>
