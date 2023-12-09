@@ -7,5 +7,5 @@ using command in cmd:conda create -n cnncls python=3.9 -y     activate environme
 2:install the rquirements for the environment setup
 using:pip install -r requirements.txt
 3:finally run python application.py to run the complete code
-NOW open up your local host and port check whether it is working fine...
+NOW open up your local host and port check whether it is working fine..
 
