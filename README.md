@@ -22,3 +22,54 @@ using:pip install -r requirements.txt
 3:finally run python application.py to run the complete code
 NOW open up your local host and port check whether it is working fine..
 
+
+workflow:
+
+setup the github repository
+
+
+creating new environment
+
+
+setup setup.py and requirements.txt
+
+
+creating .gitignore file
+
+
+Run setup.py which will builds and create packages and reuirements
+
+
+Build src as a package
+
+under components data ingestion.py,data_transformation.py,modeltrainer.py are created for ingesting,transforming and training the model
+
+
+create logger.py  for logging purpose 
+
+
+create exception.py for custom exception
+
+
+
+create utils.py for making functions that are frequently used in project
+
+
+##Deployment of the project
+
+deployed with python config,elastic beanstalk and cd pipeline
+
+
+1:create the application from AWS console
+
+2:create an environment for the application
+
+
+3:create cd pipeline for transfering data from github to AWS environment..
+
+
+4:execute pipeline for deploying the project
+
+
+
+
